@@ -12,6 +12,14 @@
             printer.Print(42); // calling through the instance to non-static method to print an integer
 
             printer.Print("This message will be printed", 3); // calling through the instance to non-static method to print a message and a count.
+
+
+
+            NepaliTeacher nepaliTeacher = new NepaliTeacher();
+            nepaliTeacher.Teaching();
+
+            EnglishTeacher englishTeacher = new EnglishTeacher();
+            englishTeacher.Teaching();
         }
     }
 }
